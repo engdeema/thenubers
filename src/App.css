@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.title {
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+.App {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: antiquewhite;
+  width: 230px;
+  font-size: xx-large;
+}

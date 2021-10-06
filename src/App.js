@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import React, { useState } from "react";
+const random = Math.floor(Math.random() * 10);
 function App() {
+  function guessNumber() {
+    if (randomNumber !== random) {
+      console.log("you are wrong");
+    } else {
+      console.log("You are wright");
+    }
+  }
+  const [randomNumber, setrandomNumber] = useState("");
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h5 className="title">Choose WISELY !!</h5>
+
+      <p> {random} </p>
+      <input onChange={(e) => setrandomNumber(e.target.value)} />
+
+      <button onClick={guessNumber}>Try it your self</button>
     </div>
   );
 }

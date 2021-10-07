@@ -43,7 +43,53 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-color: antiquewhite;
+  background-color: #ffb3b3;
   width: 230px;
-  font-size: xx-large;
+  font-size: medium;
+  text-shadow: 5px 5px #867979;
+
+  border-radius: 50%;
+  margin-top: 200px;
+  margin-right: 800px;
+}
+
+.butt {
+  background-color: #ffb3b3;
+  border-radius: 50%;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: #ffffff;
+  background: #333333;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
+    #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+}
+
+.txt {
+  border: 2px solid #ffb3b3;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+}
+
+body {
+  background-image: url("./pic/immgg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: fantasy;
+}
+.discibe {
+  text-align: left;
+  margin-top: 150px;
+}
+
+.sig-detail {
+  width: 200px;
+  height: 100px;
+  margin-left: 300px;
 }

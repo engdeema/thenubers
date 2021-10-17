@@ -7,6 +7,7 @@ export default function Discreption() {
         This Game is made for you , <br /> just have fun , <br />
         play with the kids , <br /> and save the best Memories with them.
       </p>
+      <p></p>
     </div>
   );
 }
